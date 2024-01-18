@@ -28,6 +28,8 @@ const Input = React.forwardRef<HTMLInputElement, ExtendedInputProps>(
           <div className="absolute left-[1.62rem] top-[1.2rem]">
             <Image
               alt=""
+              width={10}
+              height={10}
               src={
                 startIcon === 'email'
                   ? '/images/mail_icon.png'

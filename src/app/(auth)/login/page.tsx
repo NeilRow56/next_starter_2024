@@ -9,7 +9,9 @@ function LoginPage() {
         <Image
           src="/images/auth_large.png"
           alt="large auth splash image"
-          className="h-screen"
+          width={1000}
+          height={1000}
+          className="h-screen w-screen"
         />
         <div className="absolute left-[10%] top-[40%]">
           <p className="text-[2.5rem] font-[700]">Biccas</p>

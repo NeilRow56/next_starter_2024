@@ -8,6 +8,8 @@ function RegisterPage() {
       <div className="relative hidden lg:block">
         <Image
           src="/images/auth_large.png"
+          width={50}
+          height={50}
           alt="large auth splash image"
           className="h-screen"
         />

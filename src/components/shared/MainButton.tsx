@@ -72,6 +72,8 @@ const MainButton = forwardRef<HTMLButtonElement, MainButtonProps>(
           <Image
             src={iconRoute}
             alt="left button icon"
+            width={50}
+            height={50}
             className="h-[24px] w-[24px]"
           />
         )}
@@ -83,6 +85,8 @@ const MainButton = forwardRef<HTMLButtonElement, MainButtonProps>(
         {rightIconRoute && (
           <Image
             src={rightIconRoute}
+            width={50}
+            height={50}
             alt="right button icon"
             className={rightIconClass}
           />

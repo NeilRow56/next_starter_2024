@@ -17,7 +17,7 @@ function NavBar() {
       <div className=" hidden bg-white p-4 animate-in fade-in zoom-in lg:block">
         <div className="mx-[41px] flex items-center justify-between">
           <div>
-            <Image src="/svgs/sf_logo.svg" alt="logo" />
+            <Image src="/svgs/sf_logo.svg" alt="logo" width={50} height={50} />
           </div>
           <div className="flex select-none items-center gap-[20px] text-[16px] xl:gap-[50px]">
             <p
@@ -45,7 +45,13 @@ function NavBar() {
       >
         <div className="mx-[10px] flex justify-between">
           <div className="flex select-none items-center gap-[50px] text-[16px]">
-            <Image src="/svgs/sf_logo.svg" alt="logo" className="w-[7rem]" />
+            <Image
+              width={50}
+              height={50}
+              src="/svgs/sf_logo.svg"
+              alt="logo"
+              className="w-[7rem]"
+            />
           </div>
           <div className="flex items-center gap-[40px]">
             {menu ? (
@@ -57,6 +63,8 @@ function NavBar() {
               <Image
                 src="/svgs/hamburger.svg"
                 alt="logo"
+                width={50}
+                height={50}
                 className="cursor-pointer animate-in fade-in zoom-in"
                 onClick={toggleMenu}
               />
